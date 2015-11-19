@@ -1,0 +1,76 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="android:itemBackground">#119CE1</item>
+    </style>
+
+    <style name="textStyleBig" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#0C00FF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="textStyleMedium" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#0C00FF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="textStyleSmall" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#00FF48</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="textStyleHeadline" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#0C00FF</item>
+        <item name="android:textColor">#BDFDE6</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="textStyleFooter" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#0C00FF</item>
+        <item name="android:textColor">#BDFDE6</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="textStyleSettingSmall" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#0C00FF</item>
+        <item name="android:textColor">#BDFDE6</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="textStyleSettingBig" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#0C00FF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>
